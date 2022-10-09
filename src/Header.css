@@ -1,0 +1,18 @@
+.Header .list-of-cities {
+  padding-left: 13px;
+  padding-top: 5px;
+  color: #fff;
+}
+
+.Header .list-of-cities a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 10px;
+  font-weight: 200;
+  font-size: 15px;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
+}
+
+.Header .list-of-cities a:hover {
+  text-decoration: underline;
+}

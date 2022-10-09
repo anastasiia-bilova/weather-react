@@ -1,0 +1,14 @@
+.Video section video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.Video video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

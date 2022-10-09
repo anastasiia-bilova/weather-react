@@ -1,0 +1,41 @@
+.Weather .d-flex {
+  margin-top: 90px !important;
+}
+
+.Weather .temperature {
+  font-size: 56px;
+  font-weight: 200;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
+}
+
+.Weather .units {
+  position: relative;
+  top: -28px;
+}
+
+.Weather .units a {
+  text-decoration: none;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
+}
+
+.Weather .active {
+  font-weight: 600;
+  cursor: default;
+}
+
+.Weather .active:hover {
+  text-decoration: none;
+}
+
+.Weather .icon {
+  font-size: 56px;
+}
+
+.Weather #description {
+  text-transform: capitalize;
+  line-height: 19px;
+}
+
+.Weather span.img {
+  font-size: 4em;
+}
