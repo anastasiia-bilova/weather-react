@@ -1,3 +1,4 @@
+import React from "react";
 import "./Footer.css";
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
           <a
             href="https://github.com/anastasiia-bilova/weather-react"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="signature-link"
           >
             Open-source code

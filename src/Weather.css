@@ -39,3 +39,90 @@
 .Weather span.img {
   font-size: 4em;
 }
+
+.Weather .list-of-cities {
+  padding-left: 13px;
+  padding-top: 5px;
+  color: #fff;
+}
+
+.Weather .list-of-cities a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 10px;
+  font-weight: 200;
+  font-size: 15px;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
+}
+
+.Weather .list-of-cities a:hover {
+  text-decoration: underline;
+}
+
+.Weather .input-keyword {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  border-radius: 0.375rem;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "SF Pro Text", "SF Pro Icons", Segoe UI, SegoeUI,
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Weather .input-keyword:focus {
+  border: 1px solid #fff;
+  outline: 0 !important;
+}
+
+.Weather .input-group .form-control {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.Weather .form-control:focus {
+  color: #fff;
+  border: 1px solid #fff !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  outline: 0;
+  box-shadow: none;
+}
+
+.Weather .form-control::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.Weather .btn-outline-light:active,
+.btn-outline-light:focus {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.Weather .btn-search {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0 0.75rem;
+  margin: 0 4px;
+}
+
+.Weather .btn-search:hover {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+  color: #000;
+}
+
+.Weather .btn-location {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0 0.75rem;
+}
+
+.Weather .btn-location:hover {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+  color: #000;
+}
