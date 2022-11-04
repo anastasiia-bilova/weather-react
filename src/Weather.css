@@ -1,5 +1,7 @@
 .Weather .d-flex {
   margin-top: 90px !important;
+  /* position: relative;
+  top: 100px; */
 }
 
 .Weather .temperature {
@@ -25,10 +27,6 @@
 
 .Weather .active:hover {
   text-decoration: none;
-}
-
-.Weather .icon {
-  font-size: 56px;
 }
 
 .Weather #description {

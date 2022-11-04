@@ -1,0 +1,6 @@
+.WeatherForecast .col {
+  background: var(--bkg-forecast);
+  background-blend-mode: soft-light;
+  border: none;
+  border-radius: 20px;
+}

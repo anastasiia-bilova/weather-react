@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="Footer">
       <small className="footer">
-        <p>
+        <p className="mt-5">
           <a
             href="https://github.com/anastasiia-bilova/weather-react"
             target="_blank"

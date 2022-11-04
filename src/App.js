@@ -1,5 +1,5 @@
 import React from "react";
-import Forecast from "./Forecast";
+
 import Footer from "./Footer";
 import Video from "./Video";
 import Weather from "./Weather";
@@ -13,7 +13,6 @@ export default function App() {
         <Video />
         <div className="container h-100">
           <Weather defaultCity="London" />
-          <Forecast />
           <Footer />
         </div>
       </section>

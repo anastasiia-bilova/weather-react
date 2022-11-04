@@ -3,6 +3,7 @@ import axios from "axios";
 
 import "./Weather.css";
 import FormattedDate from "./FormattedDate";
+import WeatherForecast from "./WeatherForecast";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
@@ -13,6 +14,7 @@ export default function Weather(props) {
 
   function handleResponse(response) {
     setWeatherData({
+      coordinates: response.data.coord,
       date: new Date(response.data.dt * 1000),
       temperature: Math.round(response.data.main.temp),
       maxTemperature: Math.round(response.data.main.temp_max),
@@ -58,7 +60,6 @@ export default function Weather(props) {
                 type="search"
                 className="form-control input-keyword"
                 onChange={handleCityChange}
-                autoFocus="on"
                 placeholder="Search for location"
                 aria-label="Recipient's username with two button addons"
               />
@@ -105,7 +106,7 @@ export default function Weather(props) {
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                 {/* <img src="" alt="Clear" id="icon" className="float-left" /> */}
                 <div>
-                  <WeatherIcon code={weatherData.icon} size={52} />
+                  <WeatherIcon code={weatherData.icon} size={62} />
                 </div>
                 {/* <span className="img" role="img" aria-label="Sun Behind Cloud">
                   {" "}
@@ -139,10 +140,11 @@ export default function Weather(props) {
             </div>
           </div>
         </div>
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
     search();
-    return "Loading...";
+    return "Loading weather...";
   }
 }
