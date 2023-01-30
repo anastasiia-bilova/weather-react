@@ -13,12 +13,16 @@ export default function WeatherForecast(props) {
   useEffect(() => {
     async function fetchWeatherForecast() {
       if (!latitude && !longitude) return null;
-      const response = await axios.get(
-        `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`
-      );
+      try {
+        const response = await axios.get(
+          `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`
+        );
 
-      setForecast(response.data.daily);
-      setLoaded(true);
+        setForecast(response.data.daily);
+        setLoaded(true);
+      } catch (err) {
+        console.log(err.message);
+      }
     }
     fetchWeatherForecast();
   }, [props.coordinates]);

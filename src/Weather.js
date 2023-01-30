@@ -39,34 +39,40 @@ export default function Weather(props) {
   const WEATHER_API_URL_WITH_QUERY = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${API_KEY}&units=metric`;
 
   async function sendRequestToAPI(url) {
-    const response = await axios.get(url);
+    try {
+      const response = await axios.get(url);
 
-    setData({
-      coordinates: response.data.coord,
-      date: response.data.dt,
-      temperature: Math.round(response.data.main.temp),
-      maxTemperature: Math.round(response.data.main.temp_max),
-      minTemperature: Math.round(response.data.main.temp_min),
-      countryCode: response.data.sys.country,
-      humidity: response.data.main.humidity,
-      wind: response.data.wind.speed,
-      description: response.data.weather[0].description,
-      icon: response.data.weather[0].icon,
-      city: response.data.name,
-    });
+      setData({
+        coordinates: response.data.coord,
+        date: response.data.dt,
+        temperature: Math.round(response.data.main.temp),
+        maxTemperature: Math.round(response.data.main.temp_max),
+        minTemperature: Math.round(response.data.main.temp_min),
+        countryCode: response.data.sys.country,
+        humidity: response.data.main.humidity,
+        wind: response.data.wind.speed,
+        description: response.data.weather[0].description,
+        icon: response.data.weather[0].icon,
+        city: response.data.name,
+      });
 
-    if (response.data.name.toLowerCase() in IMAGES_URL) {
-      setIsDefaultImage(false);
-      document.body.setAttribute(
-        "style",
-        `background-image: url(${IMAGES_URL[response.data.name.toLowerCase()]})`
-      );
-    } else {
-      setIsDefaultImage(true);
-      document.body.setAttribute(
-        "style",
-        `background-image: url(${DEFAULT_IMAGE_URL})`
-      );
+      if (response.data.name.toLowerCase() in IMAGES_URL) {
+        setIsDefaultImage(false);
+        document.body.setAttribute(
+          "style",
+          `background-image: url(${
+            IMAGES_URL[response.data.name.toLowerCase()]
+          })`
+        );
+      } else {
+        setIsDefaultImage(true);
+        document.body.setAttribute(
+          "style",
+          `background-image: url(${DEFAULT_IMAGE_URL})`
+        );
+      }
+    } catch (err) {
+      console.log(err.message);
     }
   }
 
