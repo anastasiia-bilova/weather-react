@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  background-image: url("https://images7.alphacoders.com/577/577962.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
