@@ -4,7 +4,7 @@ import axios from "axios";
 import {
   API_KEY,
   DEFAULT_IMAGE_URL,
-  IMAGES_URL,
+  IMAGE_URLS,
   LIST_OF_CITIES,
 } from "../utils/constants";
 import "../styles/Weather.css";
@@ -56,12 +56,12 @@ export default function Weather(props) {
         city: response.data.name,
       });
 
-      if (response.data.name.toLowerCase() in IMAGES_URL) {
+      if (response.data.name.toLowerCase() in IMAGE_URLS) {
         setIsDefaultImage(false);
         document.body.setAttribute(
           "style",
           `background-image: url(${
-            IMAGES_URL[response.data.name.toLowerCase()]
+            IMAGE_URLS[response.data.name.toLowerCase()]
           })`
         );
       } else {

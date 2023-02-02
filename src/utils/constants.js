@@ -35,7 +35,7 @@ export const NEW_YORK_IMAGE_URL =
 export const NEW_ZEALAND_IMAGE_URL =
   "https://chrisgin.com/wp-content/uploads/2019/02/AucklandCity_00348.jpg";
 
-export const IMAGES_URL = {
+export const IMAGE_URLS = {
   kyiv: KYIV_IMAGE_URL,
   lviv: LVIV_IMAGE_URL,
   london: LONDON_IMAGE_URL,
@@ -54,7 +54,7 @@ export const IMAGES_URL = {
   "new zealand": NEW_ZEALAND_IMAGE_URL,
 };
 
-export const CODE_ICON_MAPPING = {
+export const CODE_TO_ICON_MAPPING = {
   "01d": "CLEAR_DAY",
   "01n": "CLEAR_NIGHT",
   "02d": "PARTLY_CLOUDY_DAY",
