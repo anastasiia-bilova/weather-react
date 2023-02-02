@@ -3,7 +3,7 @@ import React from "react";
 import Footer from "./Footer";
 import Weather from "./Weather";
 
-import "./App.css";
+import "../styles/App.css";
 
 export default function App() {
   return (

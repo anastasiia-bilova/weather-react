@@ -6,8 +6,8 @@ import {
   DEFAULT_IMAGE_URL,
   IMAGES_URL,
   LIST_OF_CITIES,
-} from "./Constants";
-import "./Weather.css";
+} from "../utils/constants";
+import "../styles/Weather.css";
 import FormattedDate from "./FormattedDate";
 import WeatherCountry from "./WeatherCountry";
 import WeatherForecast from "./WeatherForecast";
