@@ -180,7 +180,7 @@ export default function Weather(props) {
       <div className="weather-description mt-4 py-5">
         <div>
           <FormattedDate date={data.date} />
-          <h1 className="display-2 fw-lighter">{data.city}</h1>
+          <h1 className="display-2 fw-bold">{data.city}</h1>
           <WeatherCountry countryCode={data.countryCode} />
         </div>
         <div className="d-flex flex-column flex-sm-row align-items-center mt-3">

@@ -31,7 +31,7 @@ export default function WeatherCountry(props) {
 
   return (
     <div className="WeatherCountry">
-      <h1 className="display-6 fw-lighter">{country}</h1>
+      <h1 className="display-6 fw-bold">{country}</h1>
     </div>
   );
 }
