@@ -29,8 +29,7 @@ export const VIENNA_IMAGE_URL =
   "https://cdn.britannica.com/61/154261-050-3E149111/view-dome-Vienna-St-Peters-pseudo-Gothic-Votive.jpg";
 export const AMSTERDAM_IMAGE_URL =
   "https://www.bakermckenzie.com/-/media/images/locations/doing-business-netherlands_1440x788.jpg?sc_lang=en";
-export const PRAGUE_IMAGE_URL =
-  "https://www.travelandleisure.com/thmb/8kdd3Y0uI2qSjm1-4vIwGDrqKGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/prague-castle-czech-republic-PRACAS0302-25faba77a59f404aac2ea3579323dad2.jpg";
+export const PRAGUE_IMAGE_URL = "https://t.ly/aHI_";
 export const NEW_YORK_IMAGE_URL =
   "https://res.klook.com/image/upload/Mobile/City/szhx3ytpgfnhpbmsngk0.jpg";
 export const NEW_ZEALAND_IMAGE_URL =
