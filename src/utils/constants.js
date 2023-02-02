@@ -1,7 +1,7 @@
 // The API key shouldn't be stored in client-side JavaScript files.
 // A client application running on a browser cannot securely store secrets.
 // API key must be hidden, need to use the keys on server-side when we write our API calls.
-export const API_KEY = "8f82c6d344f9012fca0574b26e72d1f7";
+export const API_KEY = process.env.REACT_APP_API_KEY;
 
 export const DEFAULT_IMAGE_URL =
   "https://www.darksky.org/wp-content/uploads/2020/03/Earth-from-Space-istock-scaled.jpg";
