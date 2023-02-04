@@ -177,7 +177,7 @@ export default function Weather(props) {
           <div className="list-of-cities text-start">{cities}</div>
         </div>
       </div>
-      <div className="weather-description mt-4 py-5">
+      <div className="weather-description mt-4 py-4">
         <div>
           <FormattedDate date={data.date} />
           <h1 className="display-2 fw-bold">{data.city}</h1>
