@@ -10,7 +10,7 @@ export default function FormattedDate(props) {
 
   return (
     <div className="FormattedDate">
-      <p className="lead fw-lighter">
+      <p className="lead fw-bolder mb-2">
         {day} {hours}:{minutes}
       </p>
     </div>

@@ -11,29 +11,28 @@ export const LONDON_IMAGE_URL =
   "https://images7.alphacoders.com/577/577962.jpg";
 export const LVIV_IMAGE_URL =
   "https://cdnp.flypgs.com/files/Sehirler-long-tail/Lviv/lviv-sehir.jpg";
-export const LISBON_IMAGE_URL =
-  "https://i.ibb.co/gbK1Gkr/lisboa-compressed.jpg";
+export const LISBON_IMAGE_URL = "https://wallpaperaccess.com/full/1647316.jpg";
 export const PARIS_IMAGE_URL = "https://wallpaperaccess.com/full/1192290.jpg";
 export const BARCELONA_IMAGE_URL =
   "https://images.pexels.com/photos/5983559/pexels-photo-5983559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
 export const TOKYO_IMAGE_URL =
   "https://upload.wikimedia.org/wikipedia/commons/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg";
 export const EDINBURGH_IMAGE_URL =
-  "https://www.stepin.de/weltneugier/wp-content/uploads/2011/11/adam-wilson-ktDODr-3tvY-unsplash-scaled.jpg";
+  "https://wallpaperaccess.com/full/7272961.jpg";
 export const REYKJAVIK_IMAGE_URL =
-  "https://www.telegraph.co.uk/content/dam/Travel/hotels/2021/May/reykjavik-where-to-stay-p.jpg";
-export const BERLIN_IMAGE_URL = "https://wallpaper.dog/large/20570120.jpg";
-export const BERN_IMAGE_URL =
-  "https://s1.1zoom.me/big0/26/Switzerland_Bern_Houses_Rivers_Bridges_Street_613622_1280x853.jpg";
+  "https://wallpaperaccess.com/full/804362.jpg";
+export const BERLIN_IMAGE_URL = "https://wallpaperaccess.com/full/1124725.jpg";
+export const BERN_IMAGE_URL = "https://wallpaperaccess.com/full/2073055.jpg";
 export const VIENNA_IMAGE_URL =
   "https://cdn.britannica.com/61/154261-050-3E149111/view-dome-Vienna-St-Peters-pseudo-Gothic-Votive.jpg";
 export const AMSTERDAM_IMAGE_URL =
-  "https://www.bakermckenzie.com/-/media/images/locations/doing-business-netherlands_1440x788.jpg?sc_lang=en";
-export const PRAGUE_IMAGE_URL = "https://t.ly/aHI_";
-export const NEW_YORK_IMAGE_URL =
-  "https://res.klook.com/image/upload/Mobile/City/szhx3ytpgfnhpbmsngk0.jpg";
-export const NEW_ZEALAND_IMAGE_URL =
-  "https://chrisgin.com/wp-content/uploads/2019/02/AucklandCity_00348.jpg";
+  "https://wallpaperaccess.com/full/2828248.jpg";
+export const PRAGUE_IMAGE_URL = "https://wallpaperaccess.com/full/41215.jpg";
+export const NEW_YORK_IMAGE_URL = "https://wallpaperaccess.com/full/492910.jpg";
+export const AUCKLAND_IMAGE_URL =
+  "https://wallpaperaccess.com/full/7729093.jpg";
+export const LOS_ANGELES_IMAGE_URL =
+  "https://wallpaperaccess.com/full/250776.jpg";
 
 export const IMAGE_URLS = {
   kyiv: KYIV_IMAGE_URL,
@@ -51,7 +50,8 @@ export const IMAGE_URLS = {
   amsterdam: AMSTERDAM_IMAGE_URL,
   prague: PRAGUE_IMAGE_URL,
   "new york": NEW_YORK_IMAGE_URL,
-  "new zealand": NEW_ZEALAND_IMAGE_URL,
+  auckland: AUCKLAND_IMAGE_URL,
+  "los angeles": LOS_ANGELES_IMAGE_URL,
 };
 
 export const CODE_TO_ICON_MAPPING = {

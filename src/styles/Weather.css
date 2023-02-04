@@ -36,7 +36,8 @@
 
 .Weather .units {
   position: relative;
-  top: -28px;
+  top: -32px;
+  font-size: 14px;
   filter: var(--filter-drop-shadow);
   text-shadow: var(--text-shadow);
 }

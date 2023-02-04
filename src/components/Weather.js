@@ -143,7 +143,7 @@ export default function Weather(props) {
               style={{ border: isDefaultImage ? "1px solid #fff" : "" }}
             />
             <button
-              className="btn btn-outline-light btn-search"
+              className="d-none d-sm-block btn btn-outline-light btn-search"
               type="button"
               onClick={() => setSearch(query)}
               style={{ border: isDefaultImage ? "1px solid #fff" : "" }}
@@ -188,19 +188,19 @@ export default function Weather(props) {
             <div className="mt-4">
               <WeatherIcon code={data.icon} size={62} />
             </div>
-            <p className="mb-0">{data.description}</p>
+            <p className="mb-0 fw-bold">{data.description}</p>
           </div>
           <div className="col order-first order-sm-1 align-self-center align-self-sm-end">
             <WeatherTemperature celsius={data.temperature} />
-            <p className="d-inline">
+            <p className="d-inline fw-bold">
               Max: <span>{data.maxTemperature}°&nbsp;&nbsp;</span>
             </p>
-            <p className="d-inline">
+            <p className="d-inline fw-bold">
               Min: <span>{data.minTemperature}°</span>
             </p>
           </div>
           <div className="col mt-4 order-sm-last align-self-center align-self-sm-end">
-            <ul>
+            <ul className="fw-bold">
               <li>
                 Humidity: <span>{data.humidity}</span> %
               </li>
