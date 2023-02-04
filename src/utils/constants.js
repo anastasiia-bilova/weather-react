@@ -6,7 +6,7 @@ export const API_KEY = process.env.REACT_APP_API_KEY;
 export const DEFAULT_IMAGE_URL =
   "https://www.darksky.org/wp-content/uploads/2020/03/Earth-from-Space-istock-scaled.jpg";
 export const KYIV_IMAGE_URL =
-  "https://images.unsplash.com/photo-1591994719351-273dbc03f137?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80";
+  "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/065/820/original/Kyiv-2.png?1675547141";
 export const LONDON_IMAGE_URL =
   "https://images7.alphacoders.com/577/577962.jpg";
 export const LVIV_IMAGE_URL =
@@ -15,8 +15,7 @@ export const LISBON_IMAGE_URL = "https://wallpaperaccess.com/full/1647316.jpg";
 export const PARIS_IMAGE_URL = "https://wallpaperaccess.com/full/1192290.jpg";
 export const BARCELONA_IMAGE_URL =
   "https://images.pexels.com/photos/5983559/pexels-photo-5983559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
-export const TOKYO_IMAGE_URL =
-  "https://upload.wikimedia.org/wikipedia/commons/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg";
+export const TOKYO_IMAGE_URL = "https://wallpaperaccess.com/full/4396201.jpg";
 export const EDINBURGH_IMAGE_URL =
   "https://wallpaperaccess.com/full/7272961.jpg";
 export const REYKJAVIK_IMAGE_URL =
